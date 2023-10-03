@@ -1,2 +1,11 @@
-package Anonimas;public class ReferenciaMetodos {
+package Anonimas;
+
+public class ReferenciaMetodos {
+    public static void main(String[] args) {
+        MyEventConsumer myEvent1 = s -> System.out.println(s);
+        myEvent1.consumer("Teste");
+
+        MyEventConsumer myEvent2 = System.out::println;
+        myEvent2.consumer("Ola");
+    }
 }

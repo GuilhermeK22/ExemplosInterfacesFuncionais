@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ExemplosInterfacesFuncionais.iml" filepath="$PROJECT_DIR$/ExemplosInterfacesFuncionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosExpressoesLambda.iml" filepath="$PROJECT_DIR$/ExemplosExpressoesLambda.iml" />
     </modules>
   </component>
 </project>

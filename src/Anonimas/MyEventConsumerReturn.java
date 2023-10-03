@@ -1,2 +1,6 @@
-package Anonimas;public class MyEventConsumerReturn {
+package Anonimas;
+
+@FunctionalInterface
+public interface MyEventConsumerReturn<T> {
+    public T consumer(Object value);
 }
